@@ -42,6 +42,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.fragment:fragment-ktx:1.5.7'
+    // used the following link to update gradle to work properly by adding debug implementation after experiencing some build errors
+    // https://stackoverflow.com/questions/56558775/launchfragmentincontainer-unable-to-resolve-activity-in-android#:~:text=Try%20to%20configure%20this%20way%20debugImplementation%20%28%27androidx.fragment%3Afragment-testing%3A1.1.0%27%29%20%7B,on%201.1.0%20exclude%20group%3A%20%27androidx.test%27%2C%20module%3A%20%27core%27%20%7D
     debugImplementation 'androidx.fragment:fragment-testing:1.5.7'
     debugImplementation 'junit:junit:4.13.2'
     debugImplementation 'androidx.test.ext:junit:1.1.5'
