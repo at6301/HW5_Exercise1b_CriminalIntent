@@ -19,7 +19,7 @@ class CrimeDetailFragment: Fragment() {
         }
 
     // adding property for the Crime instance
-    private lateinit var crime: Crime
+    lateinit var crime: Crime
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
